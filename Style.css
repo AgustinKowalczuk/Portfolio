@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: auto;
+    padding: 1rem;
+    background-color: #a3a3a3;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.Contenedor {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+
+    /* background-color: #636e72; */
+}
+
+/* Barra de navegación  */
+
+.Navegacion {
+    display: flex;
+    justify-content: space-between;
+    padding: -2rem 4rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    padding: 0.2rem;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 1rem;
+    transition: 0.5s;
+}
+
+nav ul li {
+    list-style: none;
+    margin: auto;
+    font-weight: 800;
+    font-size: 1rem;
+    transition: 1s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav img:hover {
+    transition: 2s;
+    -webkit-transform: rotateY(360deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+}
+
+nav img {
+    transition: 2s;
+    margin-left: 1rem;
+    width: 3rem;
+    cursor: pointer;
+    transform: rotate(20px);
+}
+
+
+hr {
+    margin: 1rem auto;
+    width: 60%;
+    /* display: none; */
+}
+
+/* Descripción personal en imagen  */
+
+.Inf {
+    width: 100%;
+    height: 35rem;
+    color: #ffffff;
+    background: url('./Img/FondoIntro.jpg') no-repeat center center/cover;
+    padding-bottom: 2rem;
+    /* display: none;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    box-shadow: inset -12rem -12rem 12rem rgb(0, 0, 0);
+    border-radius: 2rem;
+    cursor: default;
+}
+
+/* Resumen de Introduccion a la tecnología */
+
+.Resumen {
+    cursor: default;
+
+}
+
+.Resumen p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Proyectos */
+.Proyectos {
+    cursor: default;
+}
+
+.Proyectos ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Proyectos ul li {
+    list-style: none;
+    margin: 2rem;
+    font-weight: 600;
+}
+
+.Proyectos ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.Proyectos hr {
+    width: 80%;
+}
+
+
+.Proyectos ul li img:hover{
+    animation-duration: 0s;
+}
+
+.Proyectos ul li img{
+    width: 90%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15%;
+    animation-duration: 3s;
+    animation-name: Rotacion ;
+    animation-iteration-count: infinite ;
+}
+
+@keyframes Rotacion {
+    from{
+        -webkit-transform: rotateY(0deg);
+        -webkit-transform-style: preserve-3d;
+        transform: rotateY(0deg);
+        transform-style: preserve-3d;
+    }
+    to{
+        -webkit-transform: rotateY(360deg);
+        -webkit-transform-style: preserve-3d;
+        transform: rotateY(360deg);
+        transform-style: preserve-3d;
+    }
+}
+
+/* Tecnologías */
+
+.Tecnologias img{
+    width: 4rem;
+    margin: 1rem 0;
+}
+
+.Tecnologias .BoxTecno{
+    background-color: rgba(119, 136, 153, 0.481);
+    border: 2px solid black;
+    border-radius: 2rem;
+    height: 20rem;
+    display: grid;
+    grid-template-columns: repeat(7, 6fr);
+    margin-left: 2rem;
+    padding-left: 5rem;
+}
+
+.Tecnologias .InfTecno{
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+/* Contact */
+.Contact{
+    /* border: 2px solid black; */
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Contact ul{
+    margin: 2rem 0rem;
+    padding: 2rem;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+
+}
+
+.Contact ul li{
+    list-style: none;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.Formulario {
+    display: flex;
+    flex-direction: column;
+}
