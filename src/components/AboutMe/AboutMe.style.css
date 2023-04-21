@@ -1,0 +1,87 @@
+
+.AboutMe-component {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 220px 0px;
+}
+
+.Me {
+  font-size: 7vh;
+}
+
+.AboutMe-SocialMedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.photo-me {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  transform: rotateZ(45deg);
+  background-color: black;
+  border-radius: 25px;
+  box-shadow: 40px 20px 50px green;
+}
+
+.photo {
+  width: 500px;
+  height: 500px;
+  transform: rotateZ(-45deg) translate(0px, -100px);
+}
+
+.aboutMe-info {
+  width: 80vh;
+  font-size: 24px;
+  text-justify: distribute;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.container-logo {
+  display: flex;
+}
+
+.img-logo {
+  width: 40px;
+}
+
+/*========================= Mode Light ======================= */
+div.git.light {
+  filter: invert();
+  background-color: white;
+}
+div.gmail.light {
+  filter: invert();
+  background-color: white;
+}
+
+.logo.linkedin.light {
+  filter: invert();
+}
+
+/*========================= Mode Dark ======================= */
+div.git.dark {
+  /* background-color: white; */
+  filter: invert();
+}
+div.gmail.dark {
+  filter: invert();
+  /* background-color: white; */
+}
+.dark .img-logo {
+  filter: invert();
+}
+.logo.linkedin.dark {
+  filter: invert();
+}

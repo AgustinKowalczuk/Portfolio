@@ -1,0 +1,92 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+} */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.mode-button{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 120px;
+  height: max-content;
+  font-size: 40px;
+  border: none;
+  border-radius: 50px;
+  background-color: transparent;
+  display: flex;
+  border: 2px solid red;
+}
+
+.mode-button, .r{
+  text-align: right;
+}
+.mode-button, .l{
+  text-align: left;
+}
+
+/* 
+.mode-button, button{
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+} */
+
+.dark {
+  background-color: #242424 !important;
+  color: rgba(255, 255, 255, 0.87);
+  transition: 1s;
+}
+
+.light{
+  background-color: #f2f2f2 !important;
+  color: #242424;
+  transition: 1s;
+}
+
+.containter-mode{
+  border: 2px solid red;
+}
+
+
+/* Copiado para implementar */
+/* The switch - the box around the slider */
