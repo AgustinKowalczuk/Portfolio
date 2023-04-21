@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import AboutMe from "./components/AboutMe/AboutMe";
-import Proyects from "./components/Proyects/Proyects";
+import Proyects from "./components/Proyect/Proyects.jsx";
 import Experience from "./components/Experience/Experience";
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
       <AboutMe darkMode={mode}/>
       <Proyects/>
       <Experience/>
+      {/* <h1 style={{height:"100vh", display:"flex", justifyContent:"center", alignItems:"center"}}>ME FUI AL BAÑO</h1> */}
     </div>
   );
 }

@@ -1,13 +1,15 @@
 
 .AboutMe-component {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   width: 90%;
   margin: 220px 0px;
 }
 
 .Me {
   font-size: 7vh;
+  color:#f77445;
 }
 
 .AboutMe-SocialMedia {
@@ -17,19 +19,21 @@
 }
 
 .photo-me {
-  width: 350px;
-  height: 350px;
-  overflow: hidden;
-  transform: rotateZ(45deg);
-  background-color: black;
-  border-radius: 25px;
-  box-shadow: 40px 20px 50px green;
+  /* width: 350px; */
+  /* height: 350px; */
+  /* overflow: hidden; */
+  /* transform: rotateZ(45deg); */
+  /* background-color: black; */
+  /* border-radius: 45px; */
 }
 
 .photo {
   width: 500px;
-  height: 500px;
-  transform: rotateZ(-45deg) translate(0px, -100px);
+  border-radius: 20px;
+  box-shadow: 40px 20px 50px #954235;
+  /* height: 500px; */
+  /* transform: rotateZ(-45deg) translate(0px, -100px); */
+  /* transform: translate(0px, 10px); */
 }
 
 .aboutMe-info {

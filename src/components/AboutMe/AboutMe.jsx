@@ -1,12 +1,10 @@
 import gmail from "../../Icons/gmail.png";
 import github from "../../Icons/github.png";
 import linkedin from "../../Icons/linkedin.png";
-import photo from "../../imgs/Me-photo.jpeg";
+import photo from "../../imgs/Me-photo3.jpeg";
 import "./AboutMe.style.css";
 
 export default function AboutMe({ darkMode }) {
-  const mode = darkMode ? "dark" : "light";
-
   return (
     <section className={`AboutMe-component ${darkMode}`}>
       <div className="AboutMe-SocialMedia">
@@ -21,20 +19,18 @@ export default function AboutMe({ darkMode }) {
           </p>
         </div>
         <div className="container-logo">
-          <div className={`logo linkedin ${mode}`}>
+          <div className={`logo linkedin ${darkMode}`}>
             <img className="img-logo" src={linkedin} />
           </div>
-          <div className={`logo git ${mode}`}>
+          <div className={`logo git ${darkMode}`}>
             <img className="img-logo" src={github} />
           </div>
-          <div className={`logo gmail ${mode}`}>
+          <div className={`logo gmail ${darkMode}`}>
             <img className="img-logo" src={gmail} />
           </div>
         </div>
       </div>
-      <div className="photo-me">
-        <img className="photo" src={photo}></img>
-      </div>
+      <img className="photo" src={photo}></img>
     </section>
   );
 }

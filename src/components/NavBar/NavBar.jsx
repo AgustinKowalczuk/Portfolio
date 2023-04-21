@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./NavBar.style.css";
 
 export default function NavBar({
@@ -26,7 +25,7 @@ export default function NavBar({
               className={`button-option-menu  ${mode}`}
               onClick={pressButton}
             >
-              Sobre Mi
+              <span>Sobre Mi</span>
             </button>
           </li>
           <li className={`option ${option == "Experiencia" ? "active" : ""}`}>
@@ -34,7 +33,7 @@ export default function NavBar({
               className={`button-option-menu  ${mode}`}
               onClick={pressButton}
             >
-              Experiencia
+              <span>Experiencia</span>
             </button>
           </li>
           <li className={`option ${option == "Proyectos" ? "active" : ""}`}>
@@ -42,7 +41,7 @@ export default function NavBar({
               className={`button-option-menu  ${mode}`}
               onClick={pressButton}
             >
-              Proyectos
+              <span>Proyectos</span>
             </button>
           </li>
           <li className={`option ${option == "Educacion" ? "active" : ""}`}>
@@ -50,7 +49,7 @@ export default function NavBar({
               className={`button-option-menu  ${mode}`}
               onClick={pressButton}
             >
-              Educacion
+              <span>Educacion</span>
             </button>
           </li>
           <li className={`option ${option == "Contacto" ? "active" : ""}`}>
@@ -58,14 +57,14 @@ export default function NavBar({
               className={`button-option-menu  ${mode}`}
               onClick={pressButton}
             >
-              Contacto
+              <span>Contacto</span>
             </button>
           </li>
-        </ul>
         <label className="switch ">
           <input onClick={changeMode} type="checkbox" />
           <span className="slider round"></span>
         </label>
+        </ul>
       </div>
     </header>
   );
