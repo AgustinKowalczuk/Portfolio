@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar/NavBar";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Proyects from "./components/Proyect/Proyects.jsx";
 import Experience from "./components/Experience/Experience";
+import ContactMe from "./components/ContactMe/ContactMe";
 
 function App() {
   const [option, setOption] = useState("Sobre Mi");
@@ -24,6 +25,7 @@ function App() {
       <AboutMe darkMode={mode}/>
       <Proyects/>
       <Experience/>
+      <ContactMe/>
       {/* <h1 style={{height:"100vh", display:"flex", justifyContent:"center", alignItems:"center"}}>ME FUI AL BAÑO</h1> */}
     </div>
   );

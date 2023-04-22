@@ -1,0 +1,16 @@
+.Contact-options-container{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    padding: 1vw;
+}
+
+.ContactMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
