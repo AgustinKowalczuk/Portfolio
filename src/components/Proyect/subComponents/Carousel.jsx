@@ -1,5 +1,6 @@
 import dbFake from "../proyects.fakeDB.json";
 import CardProyect from "./CardProyect";
+import './CC.styles.css'
 
 export default function Carousel() {
   return (

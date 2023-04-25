@@ -24,7 +24,7 @@ function App() {
       />
       <AboutMe darkMode={mode}/>
       <Proyects/>
-      <Experience/>
+      {/* <Experience/> */}
       <ContactMe/>
       {/* <h1 style={{height:"100vh", display:"flex", justifyContent:"center", alignItems:"center"}}>ME FUI AL BAÑO</h1> */}
     </div>

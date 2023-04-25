@@ -1,3 +1,4 @@
+import './CC.styles.css'
 export default function CardProyect({data}){
     return(
         <div key={data.id} className="cards">

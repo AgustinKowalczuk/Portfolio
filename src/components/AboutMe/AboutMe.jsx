@@ -19,15 +19,30 @@ export default function AboutMe({ darkMode }) {
           </p>
         </div>
         <div className="container-logo">
-          <div className={`logo linkedin ${darkMode}`}>
-            <img className="img-logo" src={linkedin} />
-          </div>
-          <div className={`logo git ${darkMode}`}>
-            <img className="img-logo" src={github} />
-          </div>
-          <div className={`logo gmail ${darkMode}`}>
-            <img className="img-logo" src={gmail} />
-          </div>
+          <a
+            href="https://www.linkedin.com/in/agustinkowalczuk/"
+            target="_blank"
+          >
+            <div className={`logo linkedin ${darkMode}`}>
+              <img className="img-logo" src={linkedin} />
+            </div>
+          </a>
+          <a href="https://github.com/AgustinKowalczuk" target="_blank">
+            <div className={`logo git ${darkMode}`}>
+              <img className="img-logo" src={github} />
+            </div>
+          </a>
+          <button
+            className="Button-Mailto"
+            onClick={(e) => {
+              window.location.href =
+                "mailto:Kowalczukagustin@gmail.com?Subject=Me%20gustaria%20contactar%20contigo.";
+            }}
+          >
+            <div className={`logo gmail ${darkMode}`}>
+              <img className="img-logo" src={gmail} />
+            </div>
+          </button>
         </div>
       </div>
       <img className="photo" src={photo}></img>
