@@ -1,4 +1,5 @@
 import Carousel from "./subComponents/Carousel.jsx";
+import './Proyects.style.css'
 
 export default function Proyects({darkMode}) {
     return(
