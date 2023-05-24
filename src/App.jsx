@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useRef } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import AboutMe from "./components/AboutMe/AboutMe";
@@ -11,7 +11,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   const mode = darkMode ? "dark" : "light"
-
+  const proyect = useRef()
 
   return (
     <div className={`App ${mode}`}>

@@ -3,7 +3,9 @@
     justify-content: center;
     overflow:hidden;
     border: 2px solid red;
-    width: 75vw;
+    width: 85vw;
+    height: 100vh;
+    margin-bottom: 100px;
 }
 
 

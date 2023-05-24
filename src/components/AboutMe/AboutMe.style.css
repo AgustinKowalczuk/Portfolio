@@ -1,4 +1,4 @@
-
+    
 .AboutMe-component {
   display: flex;
   justify-content: space-around;
@@ -18,19 +18,17 @@
   justify-content: center;
 }
 
-.photo-me {
-  /* width: 350px; */
-  /* height: 350px; */
-  /* overflow: hidden; */
-  /* transform: rotateZ(45deg); */
-  /* background-color: black; */
-  /* border-radius: 45px; */
+.container-photo .dark{
+  border: 5px solid red;
 }
 
 .photo {
   width: 500px;
+  /* border: 6px solid green; */
+  margin: 0;
+  filter: drop-shadow(-5px -10px 10px #722814);
   border-radius: 20px;
-  box-shadow: 40px 20px 50px #954235;
+  /* box-shadow: 40px 20px 50px #954235; */
   /* height: 500px; */
   /* transform: rotateZ(-45deg) translate(0px, -100px); */
   /* transform: translate(0px, 10px); */

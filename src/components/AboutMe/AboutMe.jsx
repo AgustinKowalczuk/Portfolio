@@ -1,7 +1,7 @@
 import gmail from "../../Icons/gmail.png";
 import github from "../../Icons/github.png";
 import linkedin from "../../Icons/linkedin.png";
-import photo from "../../imgs/Me-photo3.jpeg";
+import photo from "../../imgs/Me-photo3-removebg-preview.png";
 import "./AboutMe.style.css";
 
 export default function AboutMe({ darkMode }) {
@@ -45,7 +45,9 @@ export default function AboutMe({ darkMode }) {
           </button>
         </div>
       </div>
-      <img className="photo" src={photo}></img>
+      <div className={`container-photo`}>
+        <img className="photo" src={photo}></img>
+      </div>
     </section>
   );
 }
