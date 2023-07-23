@@ -10,7 +10,7 @@ function App() {
   const [option, setOption] = useState("Sobre Mi");
   const [darkMode, setDarkMode] = useState(false);
 
-  const mode = darkMode ? "dark" : "light"
+  const mode = darkMode ? "dark" : "light";
   const proyect = useRef()
 
   return (
@@ -23,7 +23,7 @@ function App() {
         setDarkMode={setDarkMode}
       />
       <AboutMe darkMode={mode}/>
-      <Proyects/>
+      <Proyects darkMode={mode}/>
       {/* <Experience/> */}
       <ContactMe/>
       {/* <h1 style={{height:"100vh", display:"flex", justifyContent:"center", alignItems:"center"}}>ME FUI AL BAÑO</h1> */}

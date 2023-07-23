@@ -1,19 +1,74 @@
 .Carousel-component{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
     overflow:hidden;
-    border: 2px solid red;
-    width: 85vw;
-    height: 100vh;
+    /* border: 2px solid red; */
+    width: 70vw;
+    height: 60vh;
     margin-bottom: 100px;
 }
 
 
-.cards{
+.card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 2px solid green;
+    height: 100%;
+    margin: 20px 0px;
+    /* border: 2px solid green; */
+}
+
+/* .progress{
+    width: 100%;
+} */
+.progress {
+    height: 15px;
+    width: 90%;
+    /* border: 1px solid #428bca; */
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 15px;
+}
+ 
+.progress-bar {
+    height: 100%;
+    background: #f77445;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+ 
+.progress-bar-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5;
+}
+
+.img_proy{
+    width: 900px;
+    height: 500px;
+}
+
+.button-carousel{
+    /* border: 2px solid green; */
+    width: 4rem;
+    border: none;
+}
+.button-carousel img{
+    width: 100%;
+}
+
+.bPast{
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+}
+
+.button-carousel.dark img{
+    /* filter: invert() saturate(20); */
+    filter: invert(0.6) sepia(1) hue-rotate(-41deg) saturate(586%);
 }

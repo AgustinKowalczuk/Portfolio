@@ -3,7 +3,7 @@
         {
             "id":1,
             "name":"P1",
-            "img":"Img p1",
+            "img":"https://cdn-cashy-static-assets.lucidchart.com/marketing/blog/2017Q3/phases-project-management-lifecycle/phases-project-management-lifecycle-header.png",
             "desc":"Mucho texto P1",
             "links":{
                 "demo":"Demo 1",
@@ -13,7 +13,7 @@
         {
             "id":2,
             "name":"P2",
-            "img":"Img p2",
+            "img":"https://www.argentinaproduct.com/ckfinder/userfiles/files/blog/gestioct.jpg",
             "desc":"Mucho texto P2",
             "links":{
                 "demo":"Demo 2",
@@ -23,7 +23,7 @@
         {
             "id":3,
             "name":"P3",
-            "img":"Img p3",
+            "img":"https://cdn-3.expansion.mx/dims4/default/c301dab/2147483647/strip/true/crop/1254x836+0+0/resize/1800x1200!/format/webp/quality/80/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F23%2F02%2F062b88e04f0b9ddb490703868f80%2Fideas-proyectos.jpg",
             "desc":"Mucho texto P3",
             "links":{
                 "demo":"Demo 3",

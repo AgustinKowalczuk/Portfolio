@@ -3,9 +3,9 @@ import './Proyects.style.css'
 
 export default function Proyects({darkMode}) {
     return(
-        <section className={`Proyects-component ${darkMode}`} style={{height:"400px"}}>
+        <section className={`Proyects-component ${darkMode}`} >
             <h1>Proyectos Carrusel</h1>
-            <Carousel/>
+            <Carousel darkMode={darkMode}/>
         </section>
     )
 }
